@@ -903,47 +903,35 @@ h3 {
 
   /* ─── HERO ─── */
   .hero {
-.hero {
-  padding-left: 5% !important;
-  padding-right: 5% !important;
-  padding-top: 160px !important;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-top: 160px !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 
-.hero-content {
-  background: rgba(0,0,0,0.35);
-  border-radius: 12px;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 40px;
-}
+  .hero-content {
+    background: rgba(0,0,0,0.35);
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.hero h1 {
-  font-size: 36px;
-  letter-spacing: 2px;
-}
+  .hero h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
 
-.hero h2 {
-  font-size: 16px;
-}
+  .hero h2 {
+    font-size: 16px;
+  }
 
   .hero-image {
     width: 100%;
-    -webkit-mask-image: linear-gradient(
-      to bottom,
-      #2d2d2d 0%,
-      #2d2d2d 60%,
-      transparent 100%
-    );
-    mask-image: linear-gradient(
-      to bottom,
-      #2d2d2d 0%,
-      #2d2d2d 60%,
-      transparent 100%
-    );
+    -webkit-mask-image: linear-gradient(to bottom, #2d2d2d 0%, #2d2d2d 60%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #2d2d2d 0%, #2d2d2d 60%, transparent 100%);
   }
 
   /* ─── À PROPOS ─── */
