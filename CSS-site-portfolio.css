@@ -119,7 +119,7 @@ nav a:hover {
     height: 100%;
     width: 55%; /* elle ne prend pas tout l'écran */
     
-    background: url(arriere\ plan\ 1.png) center/cover no-repeat;
+    background: url(arriereplan1.png) center/cover no-repeat;
 
     /* 🔥 Le dégradé de transparence */
     -webkit-mask-image: linear-gradient(
