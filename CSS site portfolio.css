@@ -903,14 +903,18 @@ h3 {
 
   /* ─── HERO ─── */
   .hero {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 120px;
+.hero {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-top: 160px !important;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .hero-content {
+  background: rgba(0,0,0,0.35);
+  border-radius: 12px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
