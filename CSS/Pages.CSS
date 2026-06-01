@@ -646,15 +646,24 @@ h3 {
 @media (max-width: 768px) {
 
   /* ─── NAVBAR ─── */
-  nav ul {
-    gap: 10px;
+  header {
+  padding: 10px 12px;
+}
+nav ul {
+    gap: 8px;
     flex-wrap: wrap;
     padding: 0 8px;
   }
   nav ul li {
     margin-left: 0;
   }
-
+    .dropdown-menu {
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+      min-width: 180px;
+      width: max-content;
+      max-width: 90vw;
+    }
   /* ─── HERO PAGES ─── */
   .hero-content h1 {
     font-size: 32px !important;
