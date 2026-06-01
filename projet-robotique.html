@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Arabic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>Portfolio - BUT GEII AII</title>
+    <link rel="stylesheet" href="CSS/Pages.CSS">
+</head>
+
+<body>
+<header>
+  <nav class="navbar">
+
+    <ul class="menu">
+
+      <li>
+        <a href="html site portfolio.html" class="logo">
+          N<span style="color: #FFF200;">L</span>
+        </a>
+        <li><a href="html site portfolio.html">Accueil</a></li>
+      </li>
+
+      <li class="dropdown">
+
+        <a href="#">Autres Projets ▼</a>
+
+        <ul class="dropdown-menu">
+          <li><a href="projet-sumo.html">Projet SUMO</a></li>
+          <li><a href="projet-KAH.html">Projet KAH</a></li>
+          <li><a href="projet-mugochaud.html">Projet MUGOCHAUD</a></li>
+        </ul>
+
+      </li>
+      <li class="dropdown">
+
+        <a href="#">Loisirs ▼</a>
+
+        <ul class="dropdown-menu">
+          <li><a href="loisirs-warhammer.html">Figurines warhammer</a></li>
+          <li><a href="loisirs-handball.html">Activités sportive</a></li>
+        </ul>
+
+      </li>
+
+    </ul>
+
+  </nav>
+</header>
+
+<section class="project-hero">
+<div class="hero-image">
+    <img src="brasrobot.jpg" alt="">
+  </div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div class="hero-photo">
+      <img src="brasrobot.jpg" alt="">
+    </div>
+    <h1 style="color: #FFF200;">Projet bras robot</h1>
+    <p>Commande et pilotage d’un bras robot via liaison série RS232</p>
+  </div>
+
+</section>
+
+<section class="project-block">
+
+  <div class="project-image">
+    <img src="coderobot.jpg" alt="">
+     <h3>Partie du code du bras robotisé piloté sous Python</h3>
+  </div>
+
+  <div class="project-text">
+    <h2>Présentation du projet</h2>
+
+    <p>
+      Le projet bras robotisé consiste à développer un programme capable 
+      de piloter les différents axes d’un bras robot à l’aide d’une liaison 
+      série RS232 entre un ordinateur et un Raspberry Pi.
+      Ce projet mêle informatique industrielle, programmation en C et Python ainsi que communication série. 
+    </p>
+  </div>
+
+</section>
+
+
+<section class="project-block reverse">
+
+  <div class="project-image">
+    <img src="explicationrobotbras.jpg" alt="">
+     <h3> Fonctionnement du pilotage et de la communication du bras robotisé </h3>
+  </div>
+
+  <div class="project-text">
+    <h2>Fonctionnement</h2>
+
+    <p>
+      Le fonctionnement du système repose sur une communication RS232 
+      entre un PC et un Raspberry Pi à l’aide d’adaptateurs USB/série. 
+      Les commandes sont envoyées sous forme de trames contenant plusieurs 
+      octets permettant de définir le mouvement souhaité.
+      Chaque commande est interprétée par le Raspberry Pi afin de piloter 
+      les servomoteurs associés à la rotation de la base, au déplacement 
+      du bras, de l’avant-bras ainsi qu’à l’ouverture de la pince.
+    </p>
+
+  </div>
+
+</section>
+<section class="project-description">
+  <div class="project-competenceacq">
+     <h2>Compétences acquises</h2>
+  </div>
+ 
+  <p>
+      Ce projet nous a permis de développer des compétences en informatique 
+      industrielle, en programmation C et Python ainsi qu’en communication 
+      série RS232.
+      Nous avons également appris à configurer un port série sous Linux, 
+      à développer des applications capables d’échanger des trames de données 
+      et à piloter différents servomoteurs via un Raspberry Pi.
+  </p>
+
+</section>
+
+</body>
