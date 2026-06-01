@@ -889,3 +889,102 @@ h3 {
     flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+
+  /* ─── NAVBAR ─── */
+  nav ul {
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+  nav ul li {
+    margin-left: 0;
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .hero-image {
+    width: 100%;
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      #2d2d2d 0%,
+      #2d2d2d 60%,
+      transparent 100%
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      #2d2d2d 0%,
+      #2d2d2d 60%,
+      transparent 100%
+    );
+  }
+
+  .hero h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+
+  .hero h2 {
+    font-size: 16px;
+  }
+
+  .hero-content {
+    padding-bottom: 40px;
+  }
+
+  /* ─── À PROPOS ─── */
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-panel {
+    height: auto;
+  }
+
+  .cv-preview {
+    height: 220px;
+  }
+
+  /* ─── COMPÉTENCES ─── */
+  .skills {
+    padding: 80px 4%;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ─── PROJETS / LOISIRS ─── */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    height: 220px;
+  }
+
+  /* ─── CONTACT ─── */
+  .contact {
+    padding: 60px 5%;
+  }
+
+  .contact-icons-row {
+    gap: 24px;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
