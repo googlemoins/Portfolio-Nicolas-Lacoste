@@ -643,3 +643,65 @@ h3 {
     text-align: center;
     font-family: "Poppins", sans-serif;
 }
+@media (max-width: 768px) {
+
+  /* ─── NAVBAR ─── */
+  nav ul {
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0 8px;
+  }
+  nav ul li {
+    margin-left: 0;
+  }
+
+  /* ─── HERO PAGES ─── */
+  .hero-content h1 {
+    font-size: 32px !important;
+    margin-top: 16px;
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .hero-photo {
+    width: 90%;
+    height: 180px;
+  }
+
+  /* ─── PROJECT BLOCKS ─── */
+  .project-block {
+    flex-direction: column !important;
+    gap: 24px;
+    padding: 30px 5%;
+  }
+
+  .project-block.reverse {
+    flex-direction: column !important;
+  }
+
+  .project-image,
+  .project-text {
+    flex: none;
+    width: 100%;
+  }
+
+  .project-text h2 {
+    font-size: 26px;
+  }
+
+  .project-text p {
+    font-size: 15px;
+  }
+
+  /* ─── DESCRIPTION ─── */
+  .project-description {
+    width: 90%;
+    font-size: 0.95rem;
+  }
+}
